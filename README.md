@@ -1,6 +1,6 @@
 # luck-cookie 
 
-Desafio do explorer da rockeseat
+<h1>Desafio do explorer da rockeseat</h1>
 
-feito com HTML, CSS, JS
-LINK <a href="https://github.com/silvawillx/luck-cookie">Projeto</a>
+<h3>feito com HTML, CSS, JS.</h3>
+ <a href="https://github.com/silvawillx/luck-cookie">Projeto</a>
