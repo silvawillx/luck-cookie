@@ -1,0 +1,180 @@
+body {
+  background: linear-gradient(45deg, #190361, #bb00ff);
+  animation: gradient 10s ease infinite;
+  background-size: 200% 200%;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+
+:root {
+  font-size: 62.5%;
+}
+
+main {
+  width: 42.8rem;
+  align-items: center;
+  background: #FFF;
+  text-align: center;
+  padding: 4.8rem 6.4rem 6.4rem;
+  border-radius: 5px;
+}
+
+.hide {
+  display: none;
+}
+
+p,
+button {
+  font-family: 'DM Sans', sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+
+  color: #34355B;
+
+  margin-bottom: 1.5rem;
+}
+
+.partOne p {
+  color: #34355B;
+  margin-bottom: 2rem;
+}
+
+.partOne img:hover {
+  cursor: pointer;
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+
+}
+
+
+
+
+.message {
+  background-color: hsla(198, 32%, 92%, 1);
+  padding: 1rem;
+  margin-bottom: 2.5rem;
+  animation: downtop 3s;
+  transition: 1s;
+}
+
+.message p {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+
+}
+
+#openCookie {
+  margin-top: 1.5rem;
+  padding: 1.6rem;
+  background-color: #FFF;
+  color: #FFF;
+  background: #FF9500;
+  border-radius: 4px;
+  border: none;
+
+  transition: background .3s;
+}
+
+
+button {
+  margin-top: 1.5rem;
+  padding: 1.6rem;
+  background-color: #FFF;
+  color: #FFF;
+
+  border-radius: 4px;
+  border: none;
+
+  transition: background .3s;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+
+
+
+@keyframes shake {
+  0% {
+    margin-left: 0;
+  }
+
+  25% {
+    margin-left: 7px;
+  }
+
+  50% {
+    margin-left: 0;
+  }
+
+  75% {
+    margin-left: -7px;
+  }
+
+  100% {
+    margin-left: 0;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes downtop {
+  0% {
+    margin-top: 7rem;
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 0.25;
+  }
+
+  50% {
+    opacity: 0.50;
+  }
+
+  75% {
+    opacity: 0.75;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 425px) {
+  .partOne {
+    margin: 4.8rem 2rem 6.4rem .3rem;
+  }
+
+  .luck {
+    margin: 4.8rem 2rem 6.4rem .3rem;
+  }
+
+  .message {
+    background: #FFFFFF;
+  }
+
+}
